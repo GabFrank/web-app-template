@@ -1,0 +1,37 @@
+<div fxLayout="column" fxLayoutAlign="start center">
+    <div fxFlex="10">
+        <img src="/assets/logo/logo4.png" height="60px" alt="">
+    </div>
+    <br>
+    <div fxFlex style="width: 100%;">
+        <div fxLayout="column" fxLayoutAlign="start center">
+            <div fxFlex>
+                <h3>Officina central:</h3>
+            </div>
+            <div fxFlex>
+                Av. Paraguay c/ 30 de julio
+            </div>
+            <br>
+            <div style="width: 100%; text-align: center;">
+                <mat-icon style="font-size: 5em; width: 100%; color: rgb(255, 163, 0);">location_on</mat-icon>
+            </div>
+        </div>
+    </div>
+    <div fxFlex style="width: 100%;">
+        <div fxLayout="column" fxLayoutAlign="start center">
+            <div fxFlex>
+                <h3>Teléfonos:</h3>
+            </div>
+            <div fxFlex>
+                <h4>Haga click en los números</h4>
+            </div>
+            <div fxFlex (click)="openWhats()">
+                <h2 style="color: rgb(255, 163, 0);">+595982 187492 (PY)</h2>
+            </div>
+            <br>
+            <div style="width: 100%; text-align: center; color: rgb(255, 163, 0);">
+                <h2>+5544 9983 41377 (BR)</h2>
+            </div>
+        </div>
+    </div>
+</div>
